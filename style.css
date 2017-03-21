@@ -1,0 +1,176 @@
+/*Global Style*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body{
+  background-color: #EDF2C5;
+  clear: both;
+  text-decoration: none;
+}
+
+header,
+section{
+  width: 940px;
+  margin: auto;
+}
+
+/*Header Style*/
+
+header{
+  margin-top: 53px;
+  position: relative;;
+}
+
+h1.title{
+  font-size: 44px;
+  font-family: Arial Black;
+  color: #778A50;
+  width: auto;
+  display: inline-block;
+}
+
+.right_top{
+  float: right;
+  padding-top: 17px;
+}
+
+.link{
+  float: left;
+}
+
+.icon{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.member_action{
+  float: left;
+  border-left: 1px solid #778A50;
+}
+
+.button{
+  font-size: 14px;
+  height: 25px;
+  padding: 5px 7px;
+  border: 1px solid #778A50;
+  border-radius: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  color: #778A50;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav{
+  border-radius: 3px;
+  width: 100%;
+  clear: both;
+  height: 52px;
+  margin-top: 15px;
+  background-color: #778A50;
+}
+
+.nav li{
+  display: inline-block;
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.nav a{
+  display: block;
+  color: #EDF2C5;
+  font-family: Arial Black;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right:30px;
+}
+
+.Bigpic{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+.vegetables_pic{
+  width: 445px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.vegetables_pic h2{
+  border-radius: 3px;
+  background-color: #778A50;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  color: #EDF2C5;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.pictures{
+  margin-right: 0px;
+}
+
+.information{
+  width: 445px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  float: right;
+}
+
+.information h2{
+  border-radius: 3px;
+  background-color: #778A50;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  color: #EDF2C5;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.describe{
+  padding-top: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 1px;
+  background-color: #F7FBDA;
+  margin-bottom: 16px;
+  border-radius: 3px;
+}
+
+.describe p{
+  margin-bottom: 16px;
+  line-height: 1.33;
+  font-size: 12px;
+  color: #7D7D7D;
+}
+
+.footer{
+  background-color: #778A50;
+	height: 60px;
+}
+
+.footer p{
+  text-align: center;
+  position: relative;
+  top: 24px;
+	font-size: 12px;
+	color: #EDF2C5;
+  text-decoration: none;
+}
